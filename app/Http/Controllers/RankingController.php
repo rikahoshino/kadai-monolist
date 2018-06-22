@@ -16,6 +16,7 @@ class RankingController extends Controller
 
         return view('ranking.want', [
             'items' => $items,
+            'unit' =>"want",
         ]);
     }
     
@@ -25,6 +26,7 @@ class RankingController extends Controller
 
         return view('ranking.have', [
             'items' => $items,
+            'unit' =>"have"
             ]);
     }
 }
