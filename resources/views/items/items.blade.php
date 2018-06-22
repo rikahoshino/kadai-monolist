@@ -4,7 +4,7 @@
             <div class="item">
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="panel panel-default">
-                        <div class="panel-heaing text-center">
+                        <div class="panel-heading text-center">
                             <img src="{{ $item->image_url }}" alt="">
                         </div>
                         <div class="panel-body">
@@ -13,6 +13,6 @@
                     </div>
                 </div>
             </div>
-            @endforeach
+        @endforeach
     </div>
 @endif
